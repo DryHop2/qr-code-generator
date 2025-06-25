@@ -1,5 +1,18 @@
 # qr-code-generator
 
-Quick script in Python to generate a QR code
+A quick Python script to generate a high-resolution QR code for printing.
 
-I did this for a photo bucket for my wedding because I'm too cheap to pay for either a photographer or a high-res QR code that I can print out.
+I originally wrote this to make a photo drop bucket for my wedding because:
+
+- I didn’t want to pay a photographer, and
+- I refused to pay for a QR code that wasn’t blurry at 8×10.
+
+## Features
+
+- CLI tool
+- Outputs a **3000x3000 PNG** at **300 DPI** — perfect for printing
+- Input your data (URL or text), get a QR image
+
+## Usage
+
+python generate_qr.py --data "https://example.com" --output "qr.png"
