@@ -15,4 +15,4 @@ I originally wrote this to make a photo drop bucket for my wedding because:
 
 ## Usage
 
-python generate_qr.py --data "https://example.com" --output "qr.png"
+python3 main.py --data "https://example.com" --output "qr.png"
